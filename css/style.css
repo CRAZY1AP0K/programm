@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+.wrapper {
+    padding: 10px;
+    color: black;
+}
+
+.quiz-container {
+    align-items: center;
+    text-align: center;
+    display: block;
+    border: 2px groove black;
+    width: 1000px;
+    height: 200px;
+    padding: 2px;
+}
+
+.btn {
+    justify-content: center;
+    margin: 15px;
+    padding: 10px;
+    border: 1px dashed black;
+}
+
+.options {
+    border: 2px solid black;
+    height: 70px;
+    width: 900px;
+    padding-left: 44px;
+    text-align: center;
+}   
